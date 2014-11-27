@@ -1,0 +1,129 @@
+@import "compass/reset";
+@import "compass/css3";
+
+.navigator .left_item {
+  float: left;
+}
+
+.navigator .center_item {
+  float: left;
+}
+
+.navigator .right_item {
+  float: right;
+
+  input {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.left_panel {
+  height: 100%;
+}
+
+.left_panel {
+  float: left;
+
+  .person-info {
+  width: 250px;
+  height: 500px;
+  border-width: 1px;
+  background-color: RGB(128, 167, 204);
+
+  .avatar {
+    margin-left: 37%;
+    margin-top: 13%;
+    float: left;
+  }
+
+  .name {
+    float: left;
+    margin-top: 40%;
+    margin-left: -25%;
+    color: white;
+    font: -webkit-control;
+    font-size: 14px;
+  }
+
+  .intro {
+    float: left;
+    margin-top: 4%;
+    margin-left: 10%;
+    color: white;
+    font-size: 11px;
+    width: 180px;
+    line-height: 1.2;
+  }
+
+  .link {
+    float: left;
+    margin-top: 27%;
+    margin-left: 34%;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+  }
+
+  .follow {
+    float: left;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 0px;
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: RGB(107,147, 183);
+    color: white;
+  }
+}
+}
+
+.main {
+  border-style: dashed;
+  border-width: 1px;
+  height: 500px;
+  width: 75%;
+  margin-left: 1px;
+  background-color: RGB(242,238,232);
+
+  .summary {
+    background-color: RGB(255,251,245);
+    height: 100px;
+    margin: 15px 15px 15px 15px;
+    margin-left: 265px;
+
+    .item {
+      height: 100px;
+      width: 189px;
+      float: left;
+      border-width: 1px;
+      border-style: dashed;
+      span.category{
+        display: block;
+        color: gray;
+        position: relative;
+        top: 15px;
+        left: 50px;
+
+      }
+      span.number{
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 80px;
+
+      }
+    }
+  }
+}
+

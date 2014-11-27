@@ -1,0 +1,197 @@
+/* line 5, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+.navigator .left_item {
+  float: left;
+}
+
+/* line 8, ../sass/style.scss */
+.navigator .center_item {
+  float: left;
+}
+
+/* line 12, ../sass/style.scss */
+.navigator .right_item {
+  float: right;
+}
+/* line 15, ../sass/style.scss */
+.navigator .right_item input {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+/* line 24, ../sass/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 28, ../sass/style.scss */
+.left_panel {
+  height: 100%;
+}
+
+/* line 32, ../sass/style.scss */
+.left_panel {
+  float: left;
+}
+/* line 35, ../sass/style.scss */
+.left_panel .person-info {
+  width: 250px;
+  height: 500px;
+  border-width: 1px;
+  background-color: RGB(128, 167, 204);
+}
+/* line 41, ../sass/style.scss */
+.left_panel .person-info .avatar {
+  margin-left: 37%;
+  margin-top: 13%;
+  float: left;
+}
+/* line 47, ../sass/style.scss */
+.left_panel .person-info .name {
+  float: left;
+  margin-top: 40%;
+  margin-left: -25%;
+  color: white;
+  font: -webkit-control;
+  font-size: 14px;
+}
+/* line 56, ../sass/style.scss */
+.left_panel .person-info .intro {
+  float: left;
+  margin-top: 4%;
+  margin-left: 10%;
+  color: white;
+  font-size: 11px;
+  width: 180px;
+  line-height: 1.2;
+}
+/* line 66, ../sass/style.scss */
+.left_panel .person-info .link {
+  float: left;
+  margin-top: 27%;
+  margin-left: 34%;
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+}
+/* line 75, ../sass/style.scss */
+.left_panel .person-info .follow {
+  float: left;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 0px;
+  width: 120px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: RGB(107, 147, 183);
+  color: white;
+}
+
+/* line 91, ../sass/style.scss */
+.main {
+  border-style: dashed;
+  border-width: 1px;
+  height: 500px;
+  width: 75%;
+  margin-left: 1px;
+  background-color: RGB(242, 238, 232);
+}
+/* line 99, ../sass/style.scss */
+.main .summary {
+  background-color: RGB(255, 251, 245);
+  height: 100px;
+  margin: 15px 15px 15px 15px;
+  margin-left: 265px;
+}
+/* line 105, ../sass/style.scss */
+.main .summary .item {
+  height: 100px;
+  width: 189px;
+  float: left;
+  border-width: 1px;
+  border-style: dashed;
+}
+/* line 111, ../sass/style.scss */
+.main .summary .item span.category {
+  display: block;
+  color: gray;
+  position: relative;
+  top: 15px;
+  left: 50px;
+}
+/* line 119, ../sass/style.scss */
+.main .summary .item span.number {
+  display: block;
+  position: relative;
+  top: 25px;
+  left: 80px;
+}
